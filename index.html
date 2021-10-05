@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "eng">
+<head>
+    <meta charset = "UTF-8">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <title>HowzApp - connecting world</title>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src= "js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="chat.png" alt="chatapp">
+    </nav>
+    <nav>
+        <div class="container">
+            <div class = "message right">Bhushan: hello, How are you?</div>
+            <div class= "message left">harsh: hii,fine thank you</div>
+        </div>
+
+        <div class="send">
+            <form action="#" id="send-container">
+                <input type="text" name="messageInp" id="messageInp" style="width: 94%">
+                <button class="btn" type="submit">send</button>
+            </form>
+
+        </div>
+    </nav>
+
+
+</body>
+</html>
